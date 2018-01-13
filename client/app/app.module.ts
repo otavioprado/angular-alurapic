@@ -1,3 +1,4 @@
+import { BotaoModule } from './botao/botao.module';
 import { routing } from './app.routes';
 import { ListagemComponent } from './listagem/listagem.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
@@ -19,7 +20,8 @@ import 'rxjs/add/operator/map';
         PainelModule,
         routing,
         FormsModule,
-        ReactiveFormsModule
+        ReactiveFormsModule,
+        BotaoModule
     ],
     declarations: [ 
         AppComponent, 

@@ -24,9 +24,6 @@ export class ListagemComponent {
     }
 
     remover(foto: FotoComponent) {
-        console.log("Chamou o método remover()");
-        console.log(foto);
-
         this.service
             .remove(foto)
             .subscribe(() => {
